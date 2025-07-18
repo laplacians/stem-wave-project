@@ -15,7 +15,7 @@ app.config['OUTPUT_FOLDER'] = OUTPUT_FOLDER
 @app.route('/')
 def home():
     return '''
-    <h2>🎵 Steam Wave Stem Splitter</h2>
+    <h2> Stem Wave Stem Splitter</h2>
     <form method="POST" action="/upload" enctype="multipart/form-data">
         <input type="file" name="file" accept=".mp3" required>
         <button type="submit">Upload</button>
